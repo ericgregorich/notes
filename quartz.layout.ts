@@ -9,7 +9,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       "Home": "https://notes.ericgregorich.com",
       "Blog": "https://blog.ericgregorich.com",
-      "Tag Index": "http://localhost:8080/tags/",
+      "Tag Index": "https://notes.ericgregorich.com/tags/",
       "RSS": "https://notes.ericgregorich.com/index.xml"
     },
   }),
