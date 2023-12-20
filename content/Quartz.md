@@ -1,12 +1,12 @@
 ---
 title: Quartz
 tags:
-  - Seedling
+  - Apps
 ---
 [Quartz](https://quartz.jzhao.xyz) is a static site generator originally built for people using [[Obsidian]] as an alternative to [[Obsidian Publish]] for publishing their markdown files to the web.
 
 ## Prerequisites
-Quartz requires Node v18.14 or above. I like to use [[NVM]] to manage my [[Node]] installations on my machine. 
+Quartz requires Node v18.14 or above. I like to use [[NVM]] to manage my [[Node.js]] installations on my machine. 
 
 ## Installing Quartz
 The initial installation of Quartz consists of cloning the repo, installing, and then building.[^1]

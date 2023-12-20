@@ -7,8 +7,10 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      "About": "https://ericgregorich.com",
+      "Home": "https://notes.ericgregorich.com",
       "Blog": "https://blog.ericgregorich.com",
+      "Tag Index": "http://localhost:8080/tags/",
+      "RSS": "https://notes.ericgregorich.com/index.xml"
     },
   }),
 }
@@ -16,17 +18,16 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-    Component.TagList(),
+    Component.TagList()
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.RecentNotes()),
   ],
   right: [
     Component.Graph(),
