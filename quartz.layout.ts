@@ -7,6 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
+      "TAGS": "/tags",
       "ABOUT ME": "https://ericgregorich.com",
       "NOTES": "https://notes.ericgregorich.com",
       "BLOG": "https://blog.ericgregorich.com",
