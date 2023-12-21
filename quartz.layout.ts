@@ -7,9 +7,9 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      "Home": "https://notes.ericgregorich.com",
-      "Blog": "https://blog.ericgregorich.com",
-      "Tag Index": "https://notes.ericgregorich.com/tags/",
+      "ABOUT ME": "https://ericgregorich.com",
+      "NOTES": "https://notes.ericgregorich.com",
+      "BLOG": "https://blog.ericgregorich.com",
       "RSS": "https://notes.ericgregorich.com/index.xml"
     },
   }),
@@ -18,6 +18,7 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
+    Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList()
@@ -25,7 +26,8 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.Spacer(),
-    Component.Search()
+    Component.Search(),
+    Component.Darkmode()
   ],
   right: [
     Component.Graph(),
@@ -35,10 +37,12 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.ArticleTitle()],
+  beforeBody: [
+    Component.ArticleTitle()
+  ],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
+    Component.Spacer(),
     Component.Search(),
     Component.Darkmode(),
   ],
