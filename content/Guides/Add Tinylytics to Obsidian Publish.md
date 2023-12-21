@@ -12,7 +12,7 @@ If you use [[Obsidian Publish]] to host your [[Digital Garden]] and want a simpl
 ```javascript
 var tinylyticsScript = document.createElement('script');
 tinylyticsScript.defer = true;
-tinylyticsScript.src = 'https://tinylytics.app/embed/YOUREMBEDCODE.js?hits&kudos';
+tinylyticsScript.src = 'https://tinylytics.app/embed/YOUREMBEDCODE.js';
 document.head.appendChild(tinylyticsScript);
 ```
 
