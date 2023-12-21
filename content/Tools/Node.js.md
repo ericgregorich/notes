@@ -1,6 +1,5 @@
 ---
 title: Node.js
-tags:
-  - Technical
+tags: []
 ---
 Node.js is a open-source JavaScript runtime environment.

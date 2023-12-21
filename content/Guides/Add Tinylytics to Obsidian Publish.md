@@ -1,7 +1,6 @@
 ---
 title: Add Tinylytics to Obsidian Publish
-tags:
-  - SOPs
+tags: []
 ---
 If you use [[Obsidian Publish]] to host your [[Digital Garden]] and want a simple and privacy-focused analytics solution to track how people view your site, you can connect with [[Tinylytics]].
 

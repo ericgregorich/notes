@@ -1,6 +1,5 @@
 ---
-tags:
-  - Reflection
+tags: []
 ---
 A digital garden is the idea that you work on your notes and thoughts and tend to them over time to grow them (or kill them) as needed. These notes are often shared publicly.
 
