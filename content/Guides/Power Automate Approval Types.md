@@ -2,7 +2,7 @@
 tags:
   - power-automate
 ---
-[[Microsoft Power Automate]] has two main Approval Types.
+[[power-automate]] has two main Approval Types.
 
 1. Everyone must approve - All approvers must approve.
 2. First to respond - Requires approval from one approver. 

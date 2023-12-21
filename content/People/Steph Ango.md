@@ -1,1 +1,1 @@
-Steph, also known as kepano, is currently the CEO of [[Obsidian]]. 
+Steph, also known as kepano, is currently the CEO of [[obsidian]]. 

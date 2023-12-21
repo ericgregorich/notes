@@ -69,3 +69,16 @@ footer {
     display: none;
   }
 }
+
+a.internal.tag-link {
+  background-color: var(--light);
+  color: var(--tertiary);
+  border: 1px solid var(--tertiary);
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+a.internal.tag-link:hover {
+  background-color: var(--darkgray);
+  color: white !important;
+}
