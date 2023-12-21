@@ -4,7 +4,7 @@ If we want to always use the smaller layout and never show the sidebars, we can 
 
 Add the following CSS to the custom.scss file in the quartz > styles directory. We're taking the CSS elements in the @media queries in the base.scss and moving them out of the @media element.
 
-```CSS
+```css
 @use "./base.scss";
 @use "./variables.scss" as *; 
 

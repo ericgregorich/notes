@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"69dd36105077e1cd","type":"text","text":"One approver approves","x":-340,"y":-549,"width":285,"height":60,"color":"4"},
+		{"id":"1b9f82e9ffa4b501","type":"text","text":"That approver's Approval Task is marked as Approved","x":-340,"y":-451,"width":285,"height":77,"color":"4"},
+		{"id":"e9a07230297042f5","type":"text","text":"The remaining Approval Tasks are set to Approved.","x":-340,"y":-344,"width":285,"height":69,"color":"4"},
+		{"id":"49ddfcb8e8f98373","type":"text","text":"For other approvers, a message is shown saying the approval task is already complete.","x":-340,"y":-245,"width":285,"height":125,"color":"4"},
+		{"id":"33319157b0caa5cb","type":"text","text":"Approve/Reject - First to Respond","x":-167,"y":-700,"width":374,"height":60,"color":"5"},
+		{"id":"908437362fc19db5","type":"text","text":"Next action in the workflow executes.","x":-105,"y":0,"width":250,"height":60,"color":"6"},
+		{"id":"9c1848df515be49f","type":"text","text":"One approver rejects","x":82,"y":-549,"width":285,"height":60,"color":"1"},
+		{"id":"2cc6c946ffb0bf63","type":"text","text":"That approver Approval Task is marked as Rejected","x":82,"y":-451,"width":285,"height":77,"color":"1"},
+		{"id":"c8f489185a0b1b9e","type":"text","text":"The remaining Approval Tasks are set to Rejected","x":82,"y":-344,"width":285,"height":69,"color":"1"},
+		{"id":"1dc11b9348301037","type":"text","text":"For other approvers, a message is shown saying the approval task is already complete.","x":82,"y":-245,"width":285,"height":125,"color":"1"},
+		{"id":"3fe5f1e894000560","type":"text","text":"Each approver must approve","x":-340,"y":271,"width":285,"height":60,"color":"4"},
+		{"id":"30a415cbf50c4676","type":"text","text":"That approver's Approval Task is marked as Approved","x":-340,"y":369,"width":285,"height":77,"color":"4"},
+		{"id":"3c13b8973a2c7e04","type":"text","text":"One approver rejects","x":82,"y":271,"width":285,"height":60,"color":"1"},
+		{"id":"b18da87f038fc924","type":"text","text":"That approver Approval Task is marked as Rejected","x":82,"y":369,"width":285,"height":77,"color":"1"},
+		{"id":"d83fd0c20f4c43e1","type":"text","text":"The remaining Approval Tasks are set to Rejected","x":82,"y":476,"width":285,"height":69,"color":"1"},
+		{"id":"3df576f08688b904","type":"text","text":"For other approvers, a message is shown saying the approval task is already complete","x":82,"y":575,"width":285,"height":125,"color":"1"},
+		{"id":"03912262d15019a5","type":"text","text":"Approve/Reject - Everyone must approve","x":-167,"y":120,"width":374,"height":60,"color":"5"},
+		{"id":"745fdf795a0808e1","type":"text","text":"Next action in the workflow executes","x":-105,"y":820,"width":250,"height":55,"color":"6"}
+	],
+	"edges":[
+		{"id":"d4ba7edf40d8f175","fromNode":"33319157b0caa5cb","fromSide":"bottom","toNode":"69dd36105077e1cd","toSide":"top"},
+		{"id":"c54dc6405ea51480","fromNode":"33319157b0caa5cb","fromSide":"bottom","toNode":"9c1848df515be49f","toSide":"top"},
+		{"id":"5ad15892e94940d5","fromNode":"9c1848df515be49f","fromSide":"bottom","toNode":"2cc6c946ffb0bf63","toSide":"top"},
+		{"id":"85782c2b16e89474","fromNode":"2cc6c946ffb0bf63","fromSide":"bottom","toNode":"c8f489185a0b1b9e","toSide":"top"},
+		{"id":"4696af9b121f5a12","fromNode":"c8f489185a0b1b9e","fromSide":"bottom","toNode":"1dc11b9348301037","toSide":"top"},
+		{"id":"5adab13446399699","fromNode":"1dc11b9348301037","fromSide":"bottom","toNode":"908437362fc19db5","toSide":"top"},
+		{"id":"62ea11fac699e9e4","fromNode":"69dd36105077e1cd","fromSide":"bottom","toNode":"1b9f82e9ffa4b501","toSide":"top"},
+		{"id":"0468c216e5751dcb","fromNode":"1b9f82e9ffa4b501","fromSide":"bottom","toNode":"e9a07230297042f5","toSide":"top"},
+		{"id":"b5b1adeef7a049a3","fromNode":"e9a07230297042f5","fromSide":"bottom","toNode":"49ddfcb8e8f98373","toSide":"top"},
+		{"id":"b582e2f17eb6149a","fromNode":"49ddfcb8e8f98373","fromSide":"bottom","toNode":"908437362fc19db5","toSide":"top"},
+		{"id":"7759e42a720a5060","fromNode":"3fe5f1e894000560","fromSide":"bottom","toNode":"30a415cbf50c4676","toSide":"top"},
+		{"id":"bead66d512fcb1b1","fromNode":"03912262d15019a5","fromSide":"bottom","toNode":"3fe5f1e894000560","toSide":"top"},
+		{"id":"19ac731482074211","fromNode":"3c13b8973a2c7e04","fromSide":"bottom","toNode":"b18da87f038fc924","toSide":"top"},
+		{"id":"62956ab496df91ce","fromNode":"03912262d15019a5","fromSide":"bottom","toNode":"3c13b8973a2c7e04","toSide":"top"},
+		{"id":"462333ff905590fb","fromNode":"b18da87f038fc924","fromSide":"bottom","toNode":"d83fd0c20f4c43e1","toSide":"top"},
+		{"id":"d59058183fcddc43","fromNode":"d83fd0c20f4c43e1","fromSide":"bottom","toNode":"3df576f08688b904","toSide":"top"},
+		{"id":"2f272f94b2544280","fromNode":"3df576f08688b904","fromSide":"bottom","toNode":"745fdf795a0808e1","toSide":"right"},
+		{"id":"1ab8728e0fa22bb0","fromNode":"30a415cbf50c4676","fromSide":"left","toNode":"3fe5f1e894000560","toSide":"left","label":"Wait until all Approvers have approved"},
+		{"id":"0d98ebb01fe37caa","fromNode":"30a415cbf50c4676","fromSide":"bottom","toNode":"745fdf795a0808e1","toSide":"left"}
+	]
+}

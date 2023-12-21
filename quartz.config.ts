@@ -5,12 +5,12 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "Eric's Notes",
     enableSPA: true,
-    enablePopovers: true,
+    enablePopovers: false,
     analytics: {
       provider: "plausible"
     },
     baseUrl: "notes.ericgregorich.com",
-    ignorePatterns: ["private", "templates", ".obsidian", "copilot", "blog"],
+    ignorePatterns: ["private", "templates", ".obsidian", "copilot", "blog", "canvas"],
     defaultDateType: "created",
     theme: {
       typography: {

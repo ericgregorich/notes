@@ -8,7 +8,7 @@ If you use [[Obsidian Publish]] to host your [[Digital Garden]] and want a simpl
 - Add the following script to the file.
 - Publish the file!
 
-```javascript
+```js
 var tinylyticsScript = document.createElement('script');
 tinylyticsScript.defer = true;
 tinylyticsScript.src = 'https://tinylytics.app/embed/YOUREMBEDCODE.js';
