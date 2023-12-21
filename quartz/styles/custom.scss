@@ -1,3 +1,41 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
-// put your custom CSS here!
+#quartz-body {
+  width: $pageWidth !important;
+  display: flex !important;
+  flex-direction: column !important;
+  margin: auto;
+}
+
+.page > #quartz-body .sidebar {
+  position: initial !important;
+  flex-direction: row !important;
+  padding: 0 !important;
+  width: initial !important;
+  margin-top: 2rem !important;
+}
+
+#quartz-body .left {
+  left: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
+  gap: 0 !important;
+  align-items: center !important;
+}
+
+#quartz-body .right {
+  right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
+  & > * {
+    flex: 1 !important;
+  }
+}
+
+.page-header {
+  width: initial !important;
+  margin-top: 2rem !important;
+}
+
+.center,
+footer {
+  width: $pageWidth !important;
+  
+}
