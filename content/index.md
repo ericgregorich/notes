@@ -7,7 +7,7 @@ This site contains my notes (many incomplete) on things I'm interested in, inclu
 
 You can use the search feature or explore the top-level folders and see what you find. 
 - [Apps](/Apps)
-- [Books](/books)
+- [Books](/Books)
 - [Guides](/Guides)
 - [Hardware](/Hardware)
 - [Links](/Links)
