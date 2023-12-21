@@ -5,12 +5,5 @@ I'm Eric. This is my [[Digital Garden]], where i share my notes on various topic
 
 This site contains my notes (many incomplete) on things I'm interested in, including technology, development, self-improvement, and much more. 
 
-You can use the search feature or explore the top-level folders and see what you find. 
-- [Apps](/Apps)
-- [Books](/Books)
-- [Guides](/Guides)
-- [Hardware](/Hardware)
-- [Links](/Links)
-- [People](/People)
-- [Topics](/Topics)
+ [Apps](/Apps), [Books](/Books), [Guides](/Guides), [Hardware](/Hardware), [Links](/Links), [People](/People), [Topics](/Topics)
 
