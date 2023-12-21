@@ -2,7 +2,7 @@
 @use "./variables.scss" as *;
 
 #quartz-body {
-  width: $pageWidth !important;
+  max-width: $pageWidth !important;
   display: flex !important;
   flex-direction: column !important;
   margin: auto;
@@ -12,7 +12,7 @@
   position: initial !important;
   flex-direction: row !important;
   padding: 0 !important;
-  width: initial !important;
+  max-width: initial !important;
   margin-top: 2rem !important;
 }
 
@@ -30,13 +30,13 @@
 }
 
 .page-header {
-  width: initial !important;
+  max-width: initial !important;
   margin-top: 2rem !important;
 }
 
 .center,
 footer {
-  width: $pageWidth !important;
+  max-width: $pageWidth !important;
   
 }
 

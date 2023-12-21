@@ -7,7 +7,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "plausible"
     },
     baseUrl: "notes.ericgregorich.com",
     ignorePatterns: ["private", "templates", ".obsidian", "copilot", "blog"],
