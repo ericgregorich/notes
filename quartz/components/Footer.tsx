@@ -22,6 +22,7 @@ export default ((opts?: Options) => {
               <a href={link}>{text}</a>
             </li>
           ))}
+          <script src="https://tinylytics.app/embed/y_aG2_sjwUhSxuE8LCZV.js" defer></script>
         </ul>
       </footer>
     )
