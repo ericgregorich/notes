@@ -6,6 +6,8 @@
   display: flex !important;
   flex-direction: column !important;
   margin: auto;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 .page > #quartz-body .sidebar {
@@ -17,26 +19,28 @@
 }
 
 #quartz-body .left {
-  left: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
+  max-width: $pageWidth !important;
   gap: 0 !important;
   align-items: center !important;
+  max-width: $pageWidth !important;
 }
 
 #quartz-body .right {
-  right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
+  max-width: $pageWidth !important;
   & > * {
     flex: 1 !important;
   }
+  max-width: $pageWidth !important;
 }
 
 .page-header {
-  max-width: initial !important;
+  //max-width: initial !important;
   margin-top: 2rem !important;
 }
 
 .center,
 footer {
-  max-width: $pageWidth !important;
+  max-width: $fullPageWidth !important;
   
 }
 

@@ -15,13 +15,13 @@ const config: QuartzConfig = {
     theme: {
       typography: {
         header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        body: "Atkinson Hyperlegible",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#fffcef",
-          lightgray: "#dfdbcc",
+          light: "#f2f0eb",
+          lightgray: "#E5E1D6",
           gray: "#747474",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
