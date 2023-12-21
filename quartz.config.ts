@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Eric Gregorich",
+    pageTitle: "Eric's Notes",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -20,7 +20,7 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f2f1ec",
+          light: "#fffcef",
           lightgray: "#dfdbcc",
           gray: "#747474",
           darkgray: "#4e4e4e",

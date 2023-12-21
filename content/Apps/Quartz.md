@@ -18,8 +18,5 @@ We can run Quartz locally to see how our notes will render before publishing. [^
 - Run `npx quartz build --serve`
 - View your local site in your browse at http://localhost:8080
 
-
-
-
 [^1]: [Installing Quartz 4](https://quartz.jzhao.xyz/#-get-started)
 [^2]: [Building your Quartz](https://quartz.jzhao.xyz/build)

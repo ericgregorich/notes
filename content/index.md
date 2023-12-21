@@ -12,6 +12,5 @@ You can use the search feature or explore the top-level folders and see what you
 - [Hardware](/Hardware)
 - [Links](/Links)
 - [People](/People)
-- [Tools](/Tools)
 - [Topics](/Topics)
 
