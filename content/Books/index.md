@@ -1,4 +1,4 @@
 ---
 title: Books
 ---
-Books that I reference from within my notes.
+Books that I reference in my notes.
