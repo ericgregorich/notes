@@ -10,7 +10,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     baseUrl: "notes.ericgregorich.com",
-    ignorePatterns: ["private", "templates", ".obsidian", "copilot"],
+    ignorePatterns: ["private", "templates", ".obsidian", "copilot", "blog"],
     defaultDateType: "created",
     theme: {
       typography: {
