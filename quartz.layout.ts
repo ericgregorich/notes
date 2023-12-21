@@ -30,7 +30,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode()
   ],
   right: [
-    Component.Graph(),
     Component.Backlinks(),
   ],
 }

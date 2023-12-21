@@ -6,31 +6,45 @@
   display: flex !important;
   flex-direction: column !important;
   margin: auto;
-  font-size: 17px;
+  font-size: 1rem;
   line-height: 1.7;
+  @media screen and (min-width: $pageWidth) {
+    width: $pageWidth !important;
+  }
 }
 
 .page > #quartz-body .sidebar {
   position: initial !important;
   flex-direction: row !important;
   padding: 0 !important;
-  max-width: initial !important;
+  max-width: $pageWidth !important;
   margin-top: 2rem !important;
+  @media screen and (max-width: $pageWidth) {
+    position: initial;
+    flex-direction: row;
+    padding: 0;
+    width: initial;
+    margin-top: 2rem;
+  }
 }
 
 #quartz-body .left {
   max-width: $pageWidth !important;
   gap: 0 !important;
   align-items: center !important;
-  max-width: $pageWidth !important;
+  @media screen and (min-width: $pageWidth) {
+    width: $pageWidth !important;
+  }
 }
 
 #quartz-body .right {
   max-width: $pageWidth !important;
-  & > * {
-    flex: 1 !important;
+  right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
+  flex: 1 !important;
+  display: flex;
+  @media screen and (min-width: $pageWidth) {
+    width: $pageWidth !important;
   }
-  max-width: $pageWidth !important;
 }
 
 .page-header {
@@ -40,10 +54,18 @@
 
 .center,
 footer {
-  max-width: $fullPageWidth !important;
-  
+  max-width: $pageWidth !important;
+  @media screen and (min-width: $pageWidth) {
+    width: $pageWidth !important;
+  }
 }
 
-.search>#search-container>#search-space>* {
-  background-color: #FFF;
+.search > #search-container > #search-space > * {
+  background-color: #fff;
+}
+
+.graph {
+  @media screen and (max-width: $mobileBreakpoint) {
+    display: none;
+  }
 }
