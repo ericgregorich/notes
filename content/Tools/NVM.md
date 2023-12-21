@@ -1,7 +1,3 @@
----
-title: NVM (Node Version Manager)
-tags: []
----
 As a developer who relies on [[Node.js|Node.js]], we run into the issue of having different applications that need different version of Node to run. This is where NVM comes in. NVM (Node Version Manager) makes it easy to install multiple versions of Node.js on your machine and switch between them as needed.
 
 ## Installing NVM

@@ -1,6 +1,3 @@
----
-title: Update Quartz default layout to hide sidebars
----
 When using [[Quartz]], the default template has a left and right sidebar on larger desktop displays. When you shrink the display size a bit, the side bars disappear and the layout reorganizes a bit to show site title and search above the content, the Graph, and Backlinks components below the content.
 
 If we want to always use the smaller layout and never show the sidebars, we can update our template CSS to do so.
