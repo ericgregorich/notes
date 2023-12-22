@@ -1,0 +1,1 @@
+A **Linter** is a tool that performs **Linting**, a process of analyzing your files or code, with the goal of correcting common issues, adhere to best practices, and provide consistency.

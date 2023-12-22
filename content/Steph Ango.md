@@ -1,0 +1,5 @@
+---
+tags:
+  - People
+---
+Steph, also known as kepano, is currently the CEO of [[Obsidian]].
