@@ -1,1 +1,5 @@
+---
+tags:
+  - apps
+---
 [Quartz](https://quartz.jzhao.xyz) is a static site generator originally built for people using [[Obsidian]] as an alternative to [[Obsidian Publish]] for publishing their markdown files to the web.
