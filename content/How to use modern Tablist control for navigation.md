@@ -1,9 +1,9 @@
 ---
 description: How to use the modern Tablist control for navigation in your Canvas Power Apps.
 tags:
-  - power-apps
+  - power-platform
 ---
-The modern and updated TabList control in [[power-apps|Power Apps]] can serve multiple purposes, such as changing views in a gallery, displaying and hiding sections on a screen, and more. One of its potential applications is to use it for simple screen-to-screen navigation. While there are other alternatives to the TabList control for screen navigation, it is still feasible. Here is how to use it:
+The modern and updated TabList control in [[Microsoft Power Apps|Power Apps]] can serve multiple purposes, such as changing views in a gallery, displaying and hiding sections on a screen, and more. One of its potential applications is to use it for simple screen-to-screen navigation. While there are other alternatives to the TabList control for screen navigation, it is still feasible. Here is how to use it:
 ## **Create your screen layout.**
 
 I'm not going into details for this part because everyone's layout may differ. My standard layout has a horizontal container as the outer container; I add two vertical containers inside it and adjust the width and padding as needed.

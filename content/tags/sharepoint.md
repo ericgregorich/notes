@@ -1,6 +1,7 @@
 ---
 aliases:
   - SharePoint
+  - Microsoft SharePoint
 title: Microsoft SharePoint
 tags:
   - apps

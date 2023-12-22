@@ -6,5 +6,5 @@ I'm Eric. This is my [[Digital Garden]], where i share my notes on various topic
 This site contains my notes (many incomplete) on things I'm interested in, including technology, development, self-improvement, and much more. 
 
 Here are a few topics to explore:
-[[apps|Apps]], [[books|Books]], [[power-apps|Power Apps]], [[power-automate|Power Automate]], [[programming|Programming]]
+[[apps|Apps]], [[books|Books]], [[power-platform|Power Platform]], [[programming|Programming]], [[quotes|Quotes]], [[sharepoint|SharePoint]]
 

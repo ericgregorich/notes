@@ -1,7 +1,7 @@
 ---
 description: How to use PowerShell to disable the consent dialog showing when a user opens Power Apps for the first time or when a new connection is added.
 tags:
-  - power-apps
+  - power-platform
 ---
 How to use PowerShell to disable the consent dialog showing when a user opens Power Apps for the first time or when a new connection is added.
 ## Set Consent Bypass

@@ -1,10 +1,10 @@
 ---
 description: How to add and manipulate the Checkbox control that is added to a Power Apps Gallery. How to save the selected state, select all items, and unselect all items.
 tags:
-  - power-apps
+  - power-platform
 ---
 ![Example Gallery with Checkboxes](Working%20with%20Checkbox%20controls%20in%20a%20Power%20Apps%20Gallery-20231127111219445.webp)
-Handling checkboxes in the [[power-apps|Power Apps]] Gallery control can be tricky and does not always work as expected. Using a collection is a simple and robust solution. For this demo, let's set up a Gallery with checkbox controls to demonstrate various ways to interact with them.
+Handling checkboxes in the [[Microsoft Power Apps|Power Apps]] Gallery control can be tricky and does not always work as expected. Using a collection is a simple and robust solution. For this demo, let's set up a Gallery with checkbox controls to demonstrate various ways to interact with them.
 
 ## Load the Data
 

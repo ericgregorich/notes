@@ -1,9 +1,9 @@
 ---
 description: The Power Apps With Function is a powerful way to divide complex formulas into smaller pieces.
 tags:
-  - power-apps
+  - power-platform
 ---
-The [[power-apps|Power Apps]] [With function](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-with) is a powerful way to divide complex formulas into smaller pieces. It is useful when used within a ForAll, since we can’t set variables within a ForAll. Since the formula is contained, it is preferred over context variables created using UpdateContext or global variables created using Set.
+The [[Microsoft Power Apps|Power Apps]] [With function](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-with) is a powerful way to divide complex formulas into smaller pieces. It is useful when used within a ForAll, since we can’t set variables within a ForAll. Since the formula is contained, it is preferred over context variables created using UpdateContext or global variables created using Set.
 
 
 > [!NOTE] Recommendation

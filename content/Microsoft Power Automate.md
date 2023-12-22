@@ -2,7 +2,6 @@
 aliases:
   - Power Automate
   - Microsoft Flow
-title: Microsoft Power Automate
 tags:
   - apps
 ---

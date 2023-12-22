@@ -1,7 +1,7 @@
 ---
 description: Microsoft has provided some PowerShell that allows admins to check their Power Platform environment for invalid Power Automate Licenses before it becomes an issue.
 tags:
-  - power-automate
+  - power-platform
 ---
 Microsoft has provided some PowerShell that allows admins to check their Power Platform environment for invalid Power Automate Licenses before it becomes an issue.
 

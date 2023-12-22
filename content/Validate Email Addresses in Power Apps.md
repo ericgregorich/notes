@@ -1,9 +1,9 @@
 ---
 description: An example of how to validate email address in Canvas Power Apps using the IsMatch function.
 tags:
-  - power-apps
+  - power-platform
 ---
-A common request when building [[power-apps|Power Apps]] is to validate the email address of a textbox. This can be done easily using the [IsMatch](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-ismatch?ref=thepowerarchitect.com) function. The function also does all kinds of validation using regular expressions. The Match.Email property can be used to check if it’s a valid email automatically.
+A common request when building [[Microsoft Power Apps|Power Apps]] is to validate the email address of a textbox. This can be done easily using the [IsMatch](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-ismatch?ref=thepowerarchitect.com) function. The function also does all kinds of validation using regular expressions. The Match.Email property can be used to check if it’s a valid email automatically.
 
 ```js
 If(

@@ -1,7 +1,7 @@
 ---
 description: What is the Creator Kit, how to install it, and how to use the custom controls in your Canvas Power Apps.
 tags:
-  - power-apps
+  - power-platform
 ---
 ![Creator Kit DetailsList, Pivot, and Search components.](dd4b9d70-7bd3-4a8c-bcf7-750287d5963e_1362x677.webp)
 ## Creator Kit

@@ -1,0 +1,1 @@
+Cut out as many dopamine-producing activities as possible for one month. This should reset your dopamine baseline to normal levels. Then, you can introduce some things with limitations.

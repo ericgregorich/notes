@@ -3,7 +3,7 @@ description: How to hide commands from a SharePoint Document Library toolbar usi
 tags:
   - sharepoint
 ---
-The toolbar that appears in a document library (or list) in SharePoint Online can be customized (to an extent). We can hide, rename, change icons, and even rearrange the commands. 
+The toolbar that appears in a document library (or list) in [[sharepoint|SharePoint]] Online can be customized (to an extent). We can hide, rename, change icons, and even rearrange the commands. 
 
 Here is an example of a default library. By default, we see commands to create documents, Upload, Edit in Grid View, Sync, Add shortcuts to OneDrive, Pin to Quick Access, Export to Excel, and many more below the sub-menu. 
 

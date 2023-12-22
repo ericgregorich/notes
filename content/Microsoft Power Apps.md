@@ -1,5 +1,4 @@
 ---
-title: Microsoft Power Apps
 aliases:
   - Power Apps
 tags:

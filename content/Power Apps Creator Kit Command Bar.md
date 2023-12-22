@@ -1,7 +1,7 @@
 ---
 description: An overview of the Power Apps Creator Kit Command Bar. How to use it.
 tags:
-  - power-apps
+  - power-platform
 ---
 ![Creator Kit Command Bar](Power%20Apps%20Creator%20Kit%20Command%20Bar-20231127110729613.webp)
 

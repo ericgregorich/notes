@@ -1,9 +1,9 @@
 ---
 description: What is the Power Apps Host property and how to use it.
 tags:
-  - power-apps
+  - power-platform
 ---
-The [[power-apps|Power Apps]] Host property provides helpful information about the application, including the BrowserUserAgent, OSType, SessionID, and TenantID. 
+The [[Microsoft Power Apps|Power Apps]] Host property provides helpful information about the application, including the BrowserUserAgent, OSType, SessionID, and TenantID. 
 
 In the formula bar, type `Host` followed by a dot and the property you wish to access.
 
