@@ -1,7 +1,6 @@
 ---
 tags:
   - sharepoint
-  - powershell
 ---
 How to remove a Microsoft SharePoint site redirected site URL using PowerShell.
 
