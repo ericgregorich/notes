@@ -2,7 +2,7 @@
 tags:
   - azure
 ---
-Run the following PowerShell to create a self-signed certificate using Windows and PowerShell. Useful for creating certificates to use in Azure App Registrations.Â
+Run the following PowerShell to create a self-signed certificate using Windows and PowerShell. Useful for creating certificates to use in Azure App Registrations.
 
 ```powershell
 Param(

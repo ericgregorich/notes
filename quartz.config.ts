@@ -5,7 +5,7 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "Eric's Notes",
     enableSPA: true,
-    enablePopovers: true,
+    enablePopovers: false,
     analytics: {
       provider: "plausible"
     },
@@ -20,23 +20,23 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f7f7f4",
-          lightgray: "#e5e5e2",
+          light: "#f9f9f5",
+          lightgray: "#EEEEE4",
           gray: "#747474",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
+          darkgray: "#2f2f2f",
+          dark: "#5c5c5c",
           secondary: "#0e5e8c",
-          tertiary: "#8C560E",
+          tertiary: "#078C75",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#2a2b2d",
-          lightgray: "#202020",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
+          light: "#313741",
+          lightgray: "#21262d",
+          gray: "#969696",
+          darkgray: "#d5d5d5",
           dark: "#ebebec",
-          secondary: "#0784c1",
-          tertiary: "#bf7007",
+          secondary: "#2698d4",
+          tertiary: "#27C2A4",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
       },

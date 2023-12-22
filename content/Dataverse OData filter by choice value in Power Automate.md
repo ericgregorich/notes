@@ -2,6 +2,7 @@
 tags:
   - power-platform
   - dataverse
+  - power-automate
 ---
 I'm using Microsoft Power Automate to query a Dataverse table. I want to return all rows where my Choice column, named Sync Status is equal to the choice value of "New".
 
