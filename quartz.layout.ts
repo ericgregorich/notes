@@ -8,7 +8,6 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      "TAGS": "/tags",
       "ABOUT ME": "https://ericgregorich.com",
       "NOTES": "https://notes.ericgregorich.com",
       "BLOG": "https://blog.ericgregorich.com",
@@ -20,7 +19,6 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList()

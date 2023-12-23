@@ -53,7 +53,7 @@
 
 .page-header {
   width: $pageWidth !important;
-  margin-top: 2rem !important;
+  margin-top: 1rem !important;
 
   @media screen and (min-width: $pageWidth) {
     width: 100% !important;
@@ -64,8 +64,17 @@
 footer {
   max-width: $pageWidth !important;
   @media screen and (min-width: $pageWidth) {
-    width: $pageWidth !important;
+    width: $pageWidth - 45 !important;
   }
+}
+
+.page .center {
+  background-color: #fff;
+  padding: 0 20px 10px 20px;
+  border: 1px solid var(--lightgray);
+  border-radius: 5;
+  margin-top: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .search > #search-container > #search-space > * {
@@ -114,7 +123,8 @@ a.internal.tag-link:hover {
   color: white !important;
 }
 
-.graph>.graph-outer, .graph>.graph-outer svg {
+.graph > .graph-outer,
+.graph > .graph-outer svg {
   height: 350px;
 }
 
@@ -124,17 +134,17 @@ li.section-li > .section {
   font-size: 1rem;
 }
 
-li.section-li > .section a{
+li.section-li > .section a {
   font-size: 1rem;
   line-height: 30px;
 }
 
-li.section-li>.section>.meta {
-  font-size: .9rem;
+li.section-li > .section > .meta {
+  font-size: 0.9rem;
   line-height: 30px;
 }
 
-.recent-notes>ul.recent-ul>li {
+.recent-notes > ul.recent-ul > li {
   margin: 0 !important;
 }
 
