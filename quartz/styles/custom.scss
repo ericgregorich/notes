@@ -52,8 +52,12 @@
 }
 
 .page-header {
-  //max-width: initial !important;
+  width: $pageWidth !important;
   margin-top: 2rem !important;
+
+  @media screen and (min-width: $pageWidth) {
+    width: 100% !important;
+  }
 }
 
 .center,

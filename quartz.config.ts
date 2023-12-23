@@ -10,7 +10,7 @@ const config: QuartzConfig = {
       provider: "plausible"
     },
     baseUrl: "notes.ericgregorich.com",
-    ignorePatterns: ["private", "templates", ".obsidian", "copilot", "blog", "canvas", "newsletter"],
+    ignorePatterns: ["Private", "Templates", ".obsidian", "Copilot", "Blog", "Canvas", "Newsletter"],
     defaultDateType: "created",
     theme: {
       typography: {
@@ -20,11 +20,11 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f8f8f8",
-          lightgray: "#edeff0",
-          gray: "#747474",
+          light: "#eef0f3",
+          lightgray: "#dadfe7",
+          gray: "#69778b",
           darkgray: "#1f1f1f",
-          dark: "#5c5c5c",
+          dark: "#69778b",
           secondary: "#0e5e8c",
           tertiary: "#803F12",
           highlight: "rgba(143, 159, 169, 0.15)",
