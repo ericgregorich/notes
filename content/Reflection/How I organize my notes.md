@@ -1,7 +1,7 @@
 ## Folders
 Folders represent boundaries. They don't change. A note can only be in one folder, which means the folders are very high level and have a specific purpose. 
 
-| Folder Name | Purpose |
+| Folder | Purpose |
 | ---- | ---- |
 | Assets | Images and other supporting files. |
 | Blog | Where I write my blog posts that are sent to Micro.blog. |
