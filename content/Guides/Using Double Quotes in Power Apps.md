@@ -1,0 +1,1 @@
+When writing text in Microsoft [[Microsoft Power Apps|Power Apps]] controls, you may need to add a double quote as part of your text. Power Apps uses the Power Fx language. It would be best to convert the " to `&amp;Char(34)` to encode them into the correct character.

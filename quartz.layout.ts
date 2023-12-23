@@ -1,3 +1,4 @@
+import { completion } from "yargs"
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
@@ -30,7 +31,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode()
   ],
   right: [
+    Component.Graph(),
     Component.Backlinks(),
+    Component.RecentNotes()
   ],
 }
 

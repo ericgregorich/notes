@@ -13,9 +13,6 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
-        <p>
-          Created with <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>, © {year}
-        </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
             <li>
@@ -24,6 +21,10 @@ export default ((opts?: Options) => {
           ))}
           <script src="https://tinylytics.app/embed/y_aG2_sjwUhSxuE8LCZV.js" defer></script>
         </ul>
+
+        <p class="tiny">
+          Powered By <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>, © {year}
+        </p>
       </footer>
     )
   }

@@ -1,5 +1,0 @@
----
-tags:
-  - apps
----
-[Obsidian Publish](http://obsidian.md/publish) is a service from the developers of [[Obsidian|Obsidian]] to allow you to easily publish your notes to the web.

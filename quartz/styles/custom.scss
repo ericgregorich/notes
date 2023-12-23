@@ -20,6 +20,7 @@
   max-width: $pageWidth !important;
   margin-top: 2rem !important;
   @media screen and (max-width: $pageWidth) {
+    display: flex;
     position: initial;
     flex-direction: row;
     padding: 0;
@@ -41,10 +42,13 @@
   max-width: $pageWidth !important;
   right: calc(calc(100vw - $pageWidth) / 2 - $sidePanelWidth);
   flex: 1 !important;
-  display: flex;
   @media screen and (min-width: $pageWidth) {
     width: $pageWidth !important;
   }
+}
+
+.page > #quartz-body .sidebar.right {
+  flex-direction: column !important;
 }
 
 .page-header {
@@ -62,12 +66,6 @@ footer {
 
 .search > #search-container > #search-space > * {
   background-color: #fff;
-}
-
-.graph {
-  @media screen and (max-width: $mobileBreakpoint) {
-    display: none;
-  }
 }
 
 a.internal {
@@ -112,7 +110,47 @@ a.internal.tag-link:hover {
   color: white !important;
 }
 
+.graph>.graph-outer, .graph>.graph-outer svg {
+  height: 350px;
+}
+
 li.section-li > .section {
-  grid-template-columns: 3fr 6em;
+  grid-template-columns: 7em 3fr;
   display: grid;
+  font-size: 1rem;
+}
+
+li.section-li > .section a{
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+li.section-li>.section>.meta {
+  font-size: .9rem;
+  line-height: 30px;
+}
+
+.recent-notes>ul.recent-ul>li {
+  margin: 0 !important;
+}
+
+.recent-notes > ul.recent-ul > li .section > .meta {
+  font-size: 0.8rem;
+}
+
+.tiny {
+  font-size: 0.8rem;
+}
+
+blockquote {
+  border-left: 4px solid #d6a32e;
+  border-right: 4px solid #d6a32e;
+  border-top: 1px solid #d6a32e;
+  border-bottom: 1px solid #d6a32e;
+  color: var(--dark);
+  padding: 5px 15px 15px 15px;
+  background-color: #f8eec4;
+  border-radius: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
 }

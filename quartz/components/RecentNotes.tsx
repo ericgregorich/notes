@@ -16,7 +16,7 @@ interface Options {
 
 const defaultOptions = (cfg: GlobalConfiguration): Options => ({
   title: "Recent Notes",
-  limit: 3,
+  limit: 5,
   linkToMore: false,
   filter: () => true,
   sort: byDateAndAlphabetical(cfg),
@@ -25,11 +25,16 @@ const defaultOptions = (cfg: GlobalConfiguration): Options => ({
 export default ((userOpts?: Partial<Options>) => {
   function RecentNotes({ allFiles, fileData, displayClass, cfg }: QuartzComponentProps) {
     const opts = { ...defaultOptions(cfg), ...userOpts }
+
+    if (fileData.slug !== "index") { // Show only on the home page
+      return <></>
+    }
+
     const pages = allFiles.filter(opts.filter).sort(opts.sort)
     const remaining = Math.max(0, pages.length - opts.limit)
     return (
       <div class={`recent-notes ${displayClass ?? ""}`}>
-        <h3>{opts.title}</h3>
+        <h2>{opts.title}</h2>
         <ul class="recent-ul">
           {pages.slice(0, opts.limit).map((page) => {
             const title = page.frontmatter?.title
@@ -39,11 +44,9 @@ export default ((userOpts?: Partial<Options>) => {
               <li class="recent-li">
                 <div class="section">
                   <div class="desc">
-                    <h3>
                       <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
                         {title}
                       </a>
-                    </h3>
                   </div>
                   {page.dates && (
                     <p class="meta">

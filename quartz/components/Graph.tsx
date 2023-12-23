@@ -27,13 +27,13 @@ const defaultOptions: GraphOptions = {
     drag: true,
     zoom: true,
     depth: 1,
-    scale: 1.1,
-    repelForce: 0.5,
-    centerForce: 0.3,
-    linkDistance: 30,
-    fontSize: 0.6,
-    opacityScale: 1,
-    showTags: true,
+    scale: 1.4,
+    repelForce: 5,
+    centerForce: .5,
+    linkDistance: 50,
+    fontSize: 0.7,
+    opacityScale: 4,
+    showTags: false,
     removeTags: [],
   },
   globalGraph: {
@@ -46,7 +46,7 @@ const defaultOptions: GraphOptions = {
     linkDistance: 30,
     fontSize: 0.6,
     opacityScale: 1,
-    showTags: true,
+    showTags: false,
     removeTags: [],
   },
 }
@@ -55,9 +55,9 @@ export default ((opts?: GraphOptions) => {
   function Graph({ displayClass }: QuartzComponentProps) {
     const localGraph = { ...defaultOptions.localGraph, ...opts?.localGraph }
     const globalGraph = { ...defaultOptions.globalGraph, ...opts?.globalGraph }
+
     return (
       <div class={`graph ${displayClass ?? ""}`}>
-        <h3>Graph View</h3>
         <div class="graph-outer">
           <div id="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
           <svg

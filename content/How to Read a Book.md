@@ -1,5 +1,0 @@
----
-tags:
-  - books
----
-[How to Read a Book](https://micro.blog/books/9781439144831) is a guide to reading books.
