@@ -1,0 +1,10 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Eric's Notes",
+	"icon": "https://micro.blog/ericgregorich/avatar.jpg",
+	"home_page_url": "https://eg-notes.micro.blog/",
+	"feed_url": "https://eg-notes.micro.blog/feed.json",
+	"items": [
+		
+	]
+}
