@@ -2,9 +2,27 @@
 	"version": "https://jsonfeed.org/version/1",
 	"title": "Eric's Notes",
 	"icon": "https://micro.blog/ericgregorich/avatar.jpg",
-	"home_page_url": "https://eg-notes.micro.blog/",
-	"feed_url": "https://eg-notes.micro.blog/feed.json",
+	"home_page_url": "https://notes.ericgregorich.com/",
+	"feed_url": "https://notes.ericgregorich.com/feed.json",
 	"items": [
 		
+			{
+				"id": "http://eg-notes.micro.blog/2024/03/02/what-is-a.html",
+				"title": "What is a Folgezettel?",
+				"content_html": "<p>A Folgezettel is a method for organizing notes by providing each note a unique alphanumeric ID.</p>\n<p>The main point of a Folgezzetel is to force you to think about the relationships between your notes. Sure, you can simply link between them, but the Fogezzetel also gives you a visual representation of how your ideas may be related.</p>\n",
+				"content_text": "\nA Folgezettel is a method for organizing notes by providing each note a unique alphanumeric ID. \n\nThe main point of a Folgezzetel is to force you to think about the relationships between your notes. Sure, you can simply link between them, but the Fogezzetel also gives you a visual representation of how your ideas may be related.\n",
+				"date_published": "2024-03-02T20:08:19-05:00",
+				"url": "https://notes.ericgregorich.com/2024/03/02/what-is-a.html",
+				"tags": ["pkm","zettelkasten"]
+			},
+			{
+				"id": "http://eg-notes.micro.blog/2024/03/02/post-to-microblog.html",
+				"title": "Post to Micro.blog using Drafts",
+				"content_html": "<p>I was able to configure the Drafts App to post to any one of my Micro.blog sites using the original [Post to Micro.blog wCategories] (<a href=\"https://actions.getdrafts.com/a/1Sr\">https://actions.getdrafts.com/a/1Sr</a>) Action which and then some <a href=\"https://forums.getdrafts.com/t/post-to-micro-blog-with-more-than-one-blog-per-id/10407\">assistance in the forums</a> to tweak it to support multiple blogs.</p>\n",
+				"content_text": "I was able to configure the Drafts App to post to any one of my Micro.blog sites using the original [Post to Micro.blog wCategories] (https://actions.getdrafts.com/a/1Sr) Action which and then some [assistance in the forums](https://forums.getdrafts.com/t/post-to-micro-blog-with-more-than-one-blog-per-id/10407) to tweak it to support multiple blogs.\n",
+				"date_published": "2024-03-02T14:16:58-05:00",
+				"url": "https://notes.ericgregorich.com/2024/03/02/post-to-microblog.html",
+				"tags": ["blogging","micro.blog"]
+			}
 	]
 }
